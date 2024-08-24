@@ -11,6 +11,19 @@ Facultad de Ingeniería
 
 # PRODUCTO
 Informe técnico de ingeniería, máximo 20 páginas más anexos
+
+## - Introduccion:
+
+Este proyecto tiene como objetivo desarrollar un dispositivo capaz de seguir de manera precisa una trayectoria en forma de trébol de cuatro hojas, integrando principios de ingeniería mecánica, automatización y control. El propósito central es diseñar un sistema que permita generar movimientos complejos y controlados, aplicando conocimientos avanzados en mecatrónica.
+
+El dispositivo consta de dos brazos articulados, controlados por motores que posibilitan el trazado exacto de la trayectoria deseada. Para asegurar la precisión del movimiento, se ha implementado un controlador que no solo regula el comportamiento de los motores, sino que también permite ajustar en tiempo real tanto la escala como la orientación de la trayectoria. Esto ofrece una versatilidad única, facilitando la creación de tréboles de distintos tamaños y orientaciones.
+
+El proyecto abarca varias fases clave. Primero, se realiza el diseño mecánico, estableciendo las configuraciones y restricciones del sistema. Posteriormente, se procede con la modelización y caracterización de los motores, fundamentales para garantizar un control preciso. Se ha implementado un análisis de cinemática inversa, que convierte las coordenadas de la trayectoria en los ángulos adecuados para los motores, asegurando un seguimiento exacto del patrón.
+
+Una vez desarrollada la cinemática, se diseñó un controlador que ha sido validado a través de simulaciones exhaustivas antes de ser implementado en la plataforma física. La construcción física del sistema incluye la fabricación de las piezas mecánicas, el ensamblaje de los componentes, y la programación del controlador en una plataforma basada en Arduino.
+
+El dispositivo también cuenta con la capacidad de visualizar en tiempo real tanto la trayectoria deseada como la trayectoria real seguida por el sistema, lo que permite un monitoreo constante y ajustes precisos durante su operación.
+
 ## - Análisis y Diseño de Ingeniería:
 - Objetivos y alcance: El siguiente proyecto tiene como finalidad el desarrollo integral de un manipulador planar de dos grados de libertad que dibuje tréboles de n hojas a través del control automático. El trabajo abarca desde la conceptualización del brazo hasta el el diseño y contrucción del mismo y se espera que la puesta en escena del proyecto facilite el aprendizaje del trabajo colaborativo y el desarrollo de habilidades prácticas de cada integrante.
 - Marco Teórico: Cinemática de robots y su aplicación en el brazo,Planificación de trayectorias,Control
