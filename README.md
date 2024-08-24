@@ -1,6 +1,13 @@
 # Proyecto Académico para la materia de Servomecanismos
 Integrates: Marcos Fierro Sarria, Joyner Caballero Abril, Camilo Zamora Apraez
+
 Profesor: Víctor Hugo Grisales Palacios.
+
+Universidad Nacional de Colombia Sede Bogotá
+
+Facultad de Ingeniería
+
+2024
 
 # PRODUCTO
 Informe técnico de ingeniería, máximo 20 páginas más anexos
