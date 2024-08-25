@@ -82,6 +82,30 @@ Finalmente, este análisis cinemático es implementado en una interfaz gráfica 
 
 ![image](https://github.com/user-attachments/assets/021a607e-f823-4062-9c14-631172c0f685)
 
+## - Perfiles: 
+
+Para obtener los perfiles de movimiento, se ha definido un intervalo de tiempo durante el cual se ejecuta tanto el despliegue del brazo como el trazado de la figura estipulada. Se han establecido dos tiempos específicos para estas acciones: 5 minutos destinados a la rutina de dibujo y 30 segundos asignados al despliegue completo del brazo. Estos tiempos permiten un control preciso del movimiento y aseguran que las figuras se tracen de manera eficiente dentro de los parámetros definidos.
+
+Además, se considera crucial incorporar el factor de transmisión en la posición, el cual se ha calculado en función de la relación entre los tamaños de los engranajes y poleas que forman parte del sistema de transmisión de cada motor. Este factor de transmisión es determinado por la relación entre la velocidad de entrada y salida de los motores:
+
+![image](https://github.com/user-attachments/assets/1b759e70-f185-472a-9436-07fd8e572c1d)
+
+Este factor se utiliza para sincronizar la posición de los motores con la de los eslabones, de manera que el giro de los motores se corresponda con las posiciones específicas requeridas para que los eslabones sigan la trayectoria deseada. Esto ha permitido trazar las curvas de posición de cada uno de los motores en función del tiempo. Las posiciones derivadas de estos cálculos se muestran en la figura correspondiente, lo que facilita la visualización del rendimiento del sistema durante su operación.
+
+![image](https://github.com/user-attachments/assets/129ba500-f222-4231-8834-79426f02ad67)
+
+Es fundamental señalar que el brazo comienza su trayectoria desde una posición completamente plegada, en la cual los ángulos de las articulaciones se encuentran en 𝜋 radianes. A partir de esta posición inicial, se ha establecido un perfil de posición a lo largo del tiempo. Para modelar con precisión el comportamiento de los motores, hemos realizado una aproximación mediante una ecuación polinómica de orden 17, la cual describe la evolución de las posiciones de los motores a lo largo del tiempo. Esta ecuación nos permite derivar las posiciones para obtener aproximaciones de la velocidad y aceleración en función del tiempo.
+
+Las gráficas resultantes de velocidad y aceleración, generadas a partir de las aproximaciones mencionadas, se presentan en las siguientes imágenes, ofreciendo una visión clara del rendimiento dinámico del sistema. 
+
+![image](https://github.com/user-attachments/assets/e69b265a-936f-47be-a3ae-707418ad26cb)
+
+Velocidad de cada uno de los motores con respecto al tiempo
+
+![image](https://github.com/user-attachments/assets/ae6c97c8-fddc-4e37-9df1-3ffe9367e9c7)
+
+Aceleracion de cada uno de los motores con respecto al tiempo
+
 Para las demás partes, se adquirieron los siguientes componentes:
 
 
