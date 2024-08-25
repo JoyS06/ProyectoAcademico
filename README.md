@@ -80,6 +80,8 @@ El proceso de cinemática inversa traduce las coordenadas cartesianas de la tray
 
 Finalmente, este análisis cinemático es implementado en una interfaz gráfica donde se visualizan tanto la trayectoria deseada como los perfiles de movimiento de los motores, incluyendo posición, velocidad y aceleración. Esto permite un monitoreo y control precisos del mecanismo robótico a medida que sigue la trayectoria programada.
 
+![image](https://github.com/user-attachments/assets/021a607e-f823-4062-9c14-631172c0f685)
+
 Para las demás partes, se adquirieron los siguientes componentes:
 
 
