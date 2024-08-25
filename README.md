@@ -28,6 +28,11 @@ El dispositivo también cuenta con la capacidad de visualizar en tiempo real tan
 - Objetivos y alcance: El siguiente proyecto tiene como finalidad el desarrollo integral de un manipulador planar de dos grados de libertad que dibuje tréboles de n hojas a través del control automático. El trabajo abarca desde la conceptualización del brazo hasta el el diseño y contrucción del mismo y se espera que la puesta en escena del proyecto facilite el aprendizaje del trabajo colaborativo y el desarrollo de habilidades prácticas de cada integrante.
 - Marco Teórico: Cinemática de robots y su aplicación en el brazo,Planificación de trayectorias,Control
 La trayectoria se definió en dos partes. Una que lleva al mecanismo desde la posición de recogido hasta la posición en la que empieza a dibujar el trébol. Este a su vez se modeló como una función polar parametrizada, esto se hace para cambiar la cantidad de hojas, la profundidad de las mismas, su factor de rotación y su factor de escala.
+- Diseño conceptual: 
+Dado el requerimiento de un mecanismo planar con dos grados de libertad, se propuso un manipulador serial de dos eslabones como solución inicial. Esta configuración requiere, a su vez, de dos actuadores independientes para controlar la posición de cada articulación.
+- Diseño detallado: Una vez finalizado el diseño conceptual, se procedió a modelar las piezas individuales del mecanismo en Autodesk Inventor. Los modelos tridimensionales resultantes, en formato STL, se encuentran almacenados en la carpeta "Modelos". Dada la complejidad geométrica de algunas piezas y la necesidad de obtener prototipos rápidamente, se optó por usar impresión 3D. El material seleccionado para la impresión fue PLA, ya que es una opción adecuada para prototipado y aplicaciones donde no se requieren propiedades mecánicas extremas. En la siguiente imagen se presenta una vista del ensamble de la parte mecánica del mecanismo.
+
+![image](https://github.com/user-attachments/assets/c2a191e6-cfbc-49ae-b5e4-586aeb06a1e6)
 
 ## - Restricciones de Diseño
 Configuración Mecánica:
@@ -51,14 +56,7 @@ Tras una fase de aproximación, el servomecanismo debe ser capaz de seguir los p
 Gráficos en Tiempo Real:
 El dispositivo debe proporcionar una visualización tanto de la trayectoria deseada como de la trayectoria real recorrida por el mecanismo. Esta información debe ser representada gráficamente en un ordenador en tiempo real, permitiendo el monitoreo continuo y la posibilidad de realizar ajustes en tiempo real para optimizar la operación y corregir cualquier desviación del perfil de movimiento esperado.
 
-- Diseño conceptual: 
-Dado el requerimiento de un mecanismo planar con dos grados de libertad, se propuso un manipulador serial de dos eslabones como solución inicial. Esta configuración requiere, a su vez, de dos actuadores independientes para controlar la posición de cada articulación.
-
-- Diseño detallado: Una vez finalizado el diseño conceptual, se procedió a modelar las piezas individuales del mecanismo en Autodesk Inventor. Los modelos tridimensionales resultantes, en formato STL, se encuentran almacenados en la carpeta "Modelos". Dada la complejidad geométrica de algunas piezas y la necesidad de obtener prototipos rápidamente, se optó por usar impresión 3D. El material seleccionado para la impresión fue PLA, ya que es una opción adecuada para prototipado y aplicaciones donde no se requieren propiedades mecánicas extremas. En la siguiente imagen se presenta una vista del ensamble de la parte mecánica del mecanismo.
-
-![image](https://github.com/user-attachments/assets/c2a191e6-cfbc-49ae-b5e4-586aeb06a1e6)
-
-Cinematica inversa:
+## - Cinematica inversa:
 
 Para determinar los puntos cartesianos del trébol de cinco hojas que el sistema trazará, permitiendo rotación y escalado, se emplea la siguiente ecuación paramétrica:
 
