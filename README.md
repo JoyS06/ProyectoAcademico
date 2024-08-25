@@ -62,7 +62,7 @@ Cinematica inversa:
 
 Para determinar los puntos cartesianos del trébol de cinco hojas que el sistema trazará, permitiendo rotación y escalado, se emplea la siguiente ecuación paramétrica:
 
-![image](https://github.com/user-attachments/assets/a0a52d8e-d952-489c-bc37-1f2727094d61)
+![image](https://github.com/user-attachments/assets/08a47f66-dc49-49d1-b157-804f8ff464f3)
 
 En esta ecuación, E representa el factor de escala, cuyo valor en este caso es 30, correspondiente a un trébol inscrito en un cuadrado de 30 mm de lado. El parámetro C define el número de pétalos de la figura, que será de cinco hojas. D controla la rotación de la figura, mientras que A y B  son parámetros que suavizan la forma del trébol.
 
