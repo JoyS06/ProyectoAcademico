@@ -135,12 +135,19 @@ INSERTAR DIAGRAMA DE CONEXIONES
 
 ### -Modelo físico
 Debido a las variaciones de las tolerancias de impresión, fue necesario ampliar algunos agujeros para asegurar el correcto encaje de las piezas. Para mejorar la fricción y optimizar la transmisión de movimiento, se decidió recubrir ciertos agujeros con cinta, lo cual también ayudó a reducir el juego en el brazo principal. Este ajuste resultó fundamental para minimizar el movimiento relativo entre los ejes y los acoples a los eslabones, mejorando la estabilidad general del mecanismo.
+
 La fijación del primer motor a una tabla facilitó la implementación de un contrapeso improvisado; sin embargo, no fue suficiente para reducir las vibraciones. En respuesta, se incorporó una goma como base para distribuir y amortiguar mejor las vibraciones generadas durante el funcionamiento. Esta modificación ayudó a mejorar el rendimiento, pero las vibraciones aún representaron un desafío.
+
 El uso de un motor con encoder resultó ventajoso para el montaje, pero complicó el control del sistema. Al ser un encoder de pulsos, fue necesario desarrollar un sistema de interrupciones que permitiera medir y generar la señal PWM simultáneamente, lo que incrementó la complejidad del control.
+
 En cuanto a la geometría de los eslabones, se realizaron ajustes con el objetivo de reducir la carga sobre los motores, lo cual fue necesario también para mejorar el ensamblaje. Esto requirió la reimpresión de varias piezas para garantizar una adaptación adecuada.
+
 En términos eléctricos, se optó por adquirir un driver independiente para cada motor. Sin embargo, uno de los drivers generaba valores de corriente inusualmente elevados, lo que provocaba un sobrecalentamiento y daños en algunos componentes del circuito, complicando la operación del sistema.
+
 Adicionalmente, el motor ubicado en la parte superior del mecanismo tuvo que ser reemplazado debido a una falla en la rotación. Esta falla se originó por una inconsistencia en la caja reductora, la cual impedía el giro correcto del motor, afectando el desempeño del mecanismo.
+
 Finalmente, el encoder ensamblado presentó problemas funcionales, lo que requirió su sustitución. Estos problemas se atribuyeron a la falta de compatibilidad entre los componentes, lo que afectó la precisión del sistema de control.
+
 Al gestionar ambos motores con un puente H, se descubrió que la unión de las tierras entre el circuito de potencia y el de control interfería con la correcta lectura del encoder de pulsos, lo cual ocasionaba errores en el monitoreo de la posición y el control del sistema.
 
 # PROCESO
