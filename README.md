@@ -153,6 +153,12 @@ Cálculo de los torques
 De acuerdo con el enfoque Lagrangiano, los torques 𝑇1 y 𝑇2 requeridos en las dos articulaciones dependen de las derivadas parciales de la función Lagrangiana respecto al tiempo y las coordenadas angulares 
 𝜃1 y 𝜃2. Estas derivadas se calculan mediante las ecuaciones de Euler-Lagrange:
 
+![image](https://github.com/user-attachments/assets/951f2f8c-711b-4d6f-9fc7-6db80ad7d06a)
+
+Estas expresiones permiten encontrar los torques necesarios para controlar el movimiento de cada eslabón del mecanismo. Dado que la solución completa de estas ecuaciones involucra cálculos matemáticos extensos, se ha utilizado la herramienta Wolfram Mathematica para resolverlas de manera eficiente. Los resultados obtenidos se graficaron en Matlab, mostrando los perfiles de torque en función del tiempo.
+
+![image](https://github.com/user-attachments/assets/5158e597-2b31-4434-985b-221af15c2cee)
+
 Para las demás partes, se adquirieron los siguientes componentes:
 
 
