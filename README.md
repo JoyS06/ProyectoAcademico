@@ -106,6 +106,36 @@ Velocidad de cada uno de los motores con respecto al tiempo
 
 Aceleracion de cada uno de los motores con respecto al tiempo
 
+Determinación de los torques 𝑇1 y 𝑇2 requeridos por el mecanismo:
+
+Para la determinación de los torques 𝑇1 y 𝑇2 en cada articulación del mecanismo, se ha utilizado el enfoque Lagrangiano. Este enfoque define al Lagrangiano, representado por 𝐿, como la diferencia entre la energía cinética total 𝐾 y la energía potencial total 𝑈 del sistema, tal como se observa en la siguiente ecuacion:
+
+![image](https://github.com/user-attachments/assets/6309af14-f282-4770-b0d4-a913914a5a56)
+
+Para simplificar el análisis, hemos considerado el conjunto "eslabón 1 + motor 2" como una sola pieza, a la que denominamos 𝐿1, y el conjunto "eslabón 2 + marcador" como otra pieza, a la que llamamos 𝐿2. De esta forma, podemos definir las energías cinéticas traslacionales de 𝐿1 y 𝐿2 como 𝐾𝑇𝐿1 y 𝐾𝑇𝐿2, respectivamente. A su vez, las energías cinéticas rotacionales de ambos conjuntos se denotan como 𝐾𝑅𝐿1 y 𝐾𝑅𝐿2.
+
+Para las energías potenciales, definimos 𝑈𝐿1 como la energía potencial del eslabón 1, y 𝑈𝐿2 como la correspondiente al eslabón 2. Estas energías están asociadas con el centro de masa de cada conjunto.
+
+De este modo, el Lagrangiano para el sistema completo se expresa como:
+
+![image](https://github.com/user-attachments/assets/3315f1ca-66f2-4da9-9348-f627b014a121)
+
+Antes de proceder con la determinación de cada uno de estos términos, es importante definir algunos valores del diagrama presentado anteriormente.
+
+Explicación del mecanismo y valores utilizados
+
+En el diagrama de la figura, las longitudes de los eslabones 𝑙1 y 𝑙2 corresponden a los eslabones 1 y 2, respectivamente. El término 𝑚1 representa la masa conjunta del eslabón 1 y el motor 2, mientras que 𝑚2 es la masa combinada del eslabón 2 y el marcador. Los centros de masa de los conjuntos 𝐿1 y 𝐿2 se denotan como 𝑐𝑚1 y 𝑐𝑚2, respectivamente. Además, las distancias 𝑙𝑐1 y 𝑙𝑐2 son las distancias entre las articulaciones fijas y los centros de masa de cada eslabón.
+
+La masa de los eslabones móviles fue calculada considerando geometrías aproximadas de los componentes, que incluyen un ancho de 4 cm y un espesor de 5 mm, con los valores de masa obtenidos a partir de densidades de los materiales utilizados. En particular, para los eslabones se utilizó MDF con una densidad de 450 kg/m³, asignando a los motores y marcadores masas respectivas de 300 g y 50 g.
+
+Energía cinética y potencial
+
+El término de la energía cinética rotacional de 𝐿2 se define como:
+
+![image](https://github.com/user-attachments/assets/a85cdd81-d576-4ad1-a300-54af0fcb3837)
+
+donde 𝐼𝐿2 es el momento de inercia de 𝐿2 y 𝜔2 es la velocidad angular del eslabón 2. Por otro lado, la energía potencial gravitacional se expresa mediante la siguiente fórmula general:
+
 Para las demás partes, se adquirieron los siguientes componentes:
 
 
