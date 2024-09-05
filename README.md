@@ -136,6 +136,23 @@ El término de la energía cinética rotacional de 𝐿2 se define como:
 
 donde 𝐼𝐿2 es el momento de inercia de 𝐿2 y 𝜔2 es la velocidad angular del eslabón 2. Por otro lado, la energía potencial gravitacional se expresa mediante la siguiente fórmula general:
 
+![image](https://github.com/user-attachments/assets/688eb5b7-3870-49e0-a594-922e9b798358)
+
+donde 𝑚 es la masa del cuerpo, 𝑔 es la aceleración de la gravedad y ℎ es la altura del centro de masa respecto a un punto de referencia. Para nuestro mecanismo, tomamos como referencia el punto más bajo alcanzado por los centros de masa de los eslabones en la posición de reposo, es decir, cuando los ángulos 𝜃1 = 90∘ y 𝜃2 = 0∘. En esta configuración, el mecanismo se encuentra en una posición vertical, colgando bajo la acción de la gravedad.
+
+La energía potencial gravitacional de cada eslabón, en su posición de equilibrio, está dada por:
+
+![image](https://github.com/user-attachments/assets/dec12e49-ebd3-4c51-8e64-b9d7d598d108)
+
+Con estos términos ya definidos, podemos reescribir el Lagrangiano completo del sistema como:
+
+![image](https://github.com/user-attachments/assets/4cc9791a-7fe4-4389-9bf7-2df1076cb2d7)
+
+Cálculo de los torques
+
+De acuerdo con el enfoque Lagrangiano, los torques 𝑇1 y 𝑇2 requeridos en las dos articulaciones dependen de las derivadas parciales de la función Lagrangiana respecto al tiempo y las coordenadas angulares 
+𝜃1 y 𝜃2. Estas derivadas se calculan mediante las ecuaciones de Euler-Lagrange:
+
 Para las demás partes, se adquirieron los siguientes componentes:
 
 
