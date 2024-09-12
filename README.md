@@ -159,8 +159,9 @@ Estas expresiones permiten encontrar los torques necesarios para controlar el mo
 
 ![image](https://github.com/user-attachments/assets/5158e597-2b31-4434-985b-221af15c2cee)
 
-Para las demás partes, se adquirieron los siguientes componentes:
+## Determinacion de los motorreductores:
 
+Para seleccionar los motorreductores adecuados, se comenzó asegurando que cumplieran con el torque RMS y el torque pico que requería el sistema. Específicamente, se buscó que los motorreductores tuvieran un torque pico (o torque de stall) superior al calculado en las ecuaciones, y un torque nominal que superara lo mostrado en las ecuaciones anteriores.
 
 INSERTAR COMPONENTES
 
