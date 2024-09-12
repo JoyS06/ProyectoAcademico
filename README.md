@@ -181,7 +181,15 @@ INSERTAR DIAGRAMA DE CONEXIONES
 - Interfaz gráfica: Al inicio del proyecto, se realizó una interfaz sencilla en Matlab que muestra la interacción entre los dos eslabones que conforman el mecanismo, y como se dibuja la forma del trébol. Esta interfaz, permite selccionar una longitud en centímetros para cada eslabón, además de seleccionar la cantidad de hojas que queremos en el trébol y el tamaño del mismo. La interfaz servía de ayuda para ver la ubicación de la trayectoria y el brazo, lo que permitió hacer ajustes por ejemplo, en el punto del que se dibuja el trébol. El código fuente puede encontrarse en la carpeta "Códigos".
 ![image](https://github.com/user-attachments/assets/52317996-c40e-4d17-b3f2-a4d500d8be67)
 
-- Construcción: Proceso de montaje
+- Construcción: Para el proceso de construcción usamos los siguientes componentes:
+- Driver L298N:
+![image](https://github.com/user-attachments/assets/5d70b88a-9750-4005-a4ad-d4292c40c731)
+- Motor Con Encoder Motorreductor 12v 210 Rpm.
+- Dos encoders de efecto Hall AS5600: Con estos leímos las posiciones angulares del motor. Requerimos dos, dado que el encoder integrado del primer motor se descompuso en medio del proceso de caracterización.
+  ![image](https://github.com/user-attachments/assets/c094b1f3-5df3-47dd-9ff4-cd682968bec5)
+- Arduino Uno
+- Eslabones: impresos en 3D
+- Base: Hecha en acrílico.
 - Pruebas experimentales: Procedimiento de las pruebas, comparación entre simulaciones y la realidad, análisis de errores
   
 ## - Funcionamiento:
