@@ -250,3 +250,11 @@ Se realizó la obtención y caracterización de los parámetros clave de la plan
 - Joyner Caballero: Sugiero que se implementen entregas intermedias a lo largo del semestre, para que el proyecto pueda desarrollarse de manera gradual y no se acumule todo el trabajo hacia el final. Este enfoque permitiría tener un seguimiento más preciso de lo que hemos realizado y recibir retroalimentación oportuna para hacer correcciones a tiempo. Además, creo que sería muy beneficioso contar con recomendaciones sobre marcas de componentes, especialmente cuando compramos en línea o en el extranjero, ya que hay muchas opciones de baja calidad. Evitaríamos caer en estafas, como suele ocurrir con algunos productos de origen chino, lo que podría retrasar el proyecto o afectar el rendimiento del prototipo.
 
 - Camilo Apraez: Aunque me gusta la idea del proyecto, creo que se debería proporcionar más información a los estudiantes sobre los parámetros que deben tenerse en cuenta al implementar el hardware. Actualmente, la búsqueda de estos parámetros por cuenta propia puede hacer que el trabajo sea mucho más tedioso y complicado de lo necesario. Sería ideal que se explicaran estos aspectos con mayor profundidad desde el principio, para evitar retrasos o errores innecesarios. Además, creo que sería útil recibir más orientación en la parte del control del mecanismo, ya que es una sección crítica del proyecto. Tener más claridad sobre esta área mejoraría la calidad de nuestras soluciones y optimizaría el tiempo dedicado al desarrollo técnico.
+
+## Referencias: 
+
+[1] ”Motor DC con Encoder – Velocidad – Posición ”https://controlautomaticoeducacion.com/arduino/motor-dc-encoder/
+
+[2] R. Munnig Schmidt, G. Schitter, A. Rankers, J. Van Eijk. The Design of High Performance Mechatronics: 2nd Edition: High-Tech Functionality by Multidisciplinary System Integration. Delft University Press, 2014.
+
+[3] Kuo, Benjamin C., Automatic Control Systems, 7th edition, Prentice Hall, 1995.
