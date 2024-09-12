@@ -206,9 +206,39 @@ Al gestionar ambos motores con un puente H, se descubrió que la unión de las t
 # PROCESO
 Reflexiones del trabajo colaborativo, gestión de proyrecto y aprendizaje, máximo 6 páginas.
 ## - Gestión de Proyecto
+
+Dinamica de las reuniones: Durante las primeras semanas de clase, se realizaron reuniones virtuales al menos una vez por semana, en las cuales cada miembro del equipo recibía una tarea específica de diseño para desarrollar. Posteriormente, en las reuniones, se compartía el progreso individual con el grupo, lo que permitía que todos comprendieran el trabajo realizado por los demás y se resolvieran las dudas que surgían. A medida que se acercaba la fecha límite del proyecto, las reuniones presenciales se intensificaron, llegando a realizarse hasta cinco veces por semana, con una duración promedio de 10 horas por sesión, extendiéndose en ocasiones hasta la madrugada, con el objetivo de finalizar el prototipo físico y realizar los ajustes necesarios.
+
+Además, a medida que el proyecto avanzaba, la interacción entre los miembros del equipo se volvió más dinámica y colaborativa. Se promovió un ambiente de trabajo en el que todos podían aportar ideas y sugerencias para mejorar el diseño y la funcionalidad del prototipo, lo que resultó clave para enfrentar los desafíos técnicos. La presión por cumplir los plazos también fomentó un sentido de responsabilidad compartida, donde cada integrante del equipo se comprometía no solo con su parte del trabajo, sino también con el éxito global del proyecto.
+
+Manejo de tiempos y recursos: La gestión del tiempo y los recursos fue clave para el avance del proyecto. Las tareas se asignaron a medida que transcurría el semestre y luego se discutían en las reuniones virtuales para asegurar una comprensión homogénea del trabajo entre todos los miembros del equipo. Se establecieron fechas límite para cada tarea, lo que ayudó a mantener un ritmo de trabajo constante y eficiente.
+
+Los recursos económicos se dividieron equitativamente entre los integrantes, lo que permitió una distribución justa de los costos. Además, se aprovecharon otros recursos disponibles dentro del equipo, como herramientas y equipos de simulación que varios miembros poseían, lo que facilitó tanto la construcción física del prototipo como su análisis computacional. Estos recursos adicionales no solo optimizaron el uso del tiempo, sino que también permitieron que el equipo abordara problemas técnicos de manera más eficiente, mejorando la calidad y precisión del prototipo final.
+
+Por ultimo, la interacción con el docente facilitador fue constante y productiva. Después de cada clase, el profesor estaba disponible para resolver cualquier duda, lo que fue de gran ayuda para el desarrollo del proyecto. Además, el trabajo colaborativo dentro del equipo fue clave: cada miembro tenía tareas asignadas que posteriormente socializaba con el grupo, permitiendo que todos comprendieran el progreso y contribuyeran al proyecto de manera equilibrada.
+
 ## - Trabajo Colaborativo:
-## - Trabajo de Aprendizaje:
+
+Como se mencionó anteriormente, para el desarrollo de este proyecto se delegaron tareas específicas a cada integrante, y posteriormente se socializaban los avances en las reuniones para asegurar que el resto del grupo comprendiera el trabajo realizado por cada miembro. Este enfoque facilitó la coordinación y permitió que todos estuvieran al tanto del progreso global del proyecto, garantizando una integración eficiente de las diferentes partes.
+
+A continuación, se presentan los principales aportes de cada miembro, reflejando cómo la colaboración permitió aprovechar al máximo las habilidades y conocimientos individuales, logrando un resultado final cohesivo y bien integrado.
+
+Marcos Fierro: Diseño del mecanismo en Autodesk Inventor, simulación del sistema en Simulink, selección del motorreductor y apoyo en la construcción del prototipo.
+
+El diseño del mecanismo se realizó utilizando Autodesk Inventor, una herramienta que permitió crear modelos tridimensionales precisos y visualizar el funcionamiento del sistema antes de su construcción. La simulación del sistema en Simulink fue clave para validar el comportamiento dinámico del mecanismo, lo que permitió ajustar parámetros y predecir el rendimiento bajo diferentes condiciones de operación.
+
+Joyner Caballero: Diseño de los perfiles de movimiento: posición, velocidad y aceleración en función del tiempo. Análisis Lagrangiano para la determinación de los torques dinámicos en cada articulación, selección de motorreductores y construcción física del prototipo.
+
+El diseño de los perfiles de movimiento incluyó el cálculo detallado de la posición, la velocidad y la aceleración de las articulaciones a lo largo del tiempo, lo que permitió definir con precisión el comportamiento del mecanismo. Mediante el análisis Lagrangiano, se determinaron los torques dinámicos necesarios en cada articulación, lo cual fue fundamental para seleccionar los motorreductores adecuados y garantizar que el sistema pudiera manejar las exigencias mecánicas.
+
+Camilo Apraez: Obtención de los parámetros de modelado y caracterización de la planta, diseño del control proporcional y derivativo, puesta a punto del sistema de control. Apoyo en la obtención de los parámetros de modelado de los motorreductores.
+
+Se realizó la obtención y caracterización de los parámetros clave de la planta, lo cual fue fundamental para desarrollar un modelo preciso del sistema. Posteriormente, se diseñó un control proporcional y derivativo (PD) para garantizar un desempeño estable y eficiente, ajustando las respuestas del sistema según las especificaciones requeridas. La puesta a punto del sistema de control fue un proceso crítico que incluyó pruebas y ajustes para asegurar que el comportamiento del sistema fuera óptimo bajo diversas condiciones operativas.
+
 ## - Recomendaciones para Futuros trabajos de Aprendizaje Basado en Problemas orientado a Proyecto:
-- Marcos Fierro:
-- Joyner Caballero:
-- Camilo Apraez:
+
+- Marcos Fierro: Considero que sería extremadamente útil que las clases directamente relacionadas con el proyecto se impartieran al inicio del semestre. Esto nos permitiría avanzar en el desarrollo del proyecto de manera más continua y organizada, sin tener que detenernos para aprender conceptos clave a mitad del proceso. Un ejemplo concreto sería la clase sobre la caracterización de la planta, que es fundamental para entender cómo modelar el sistema. Si se impartiera esta clase al inicio, podríamos aplicar estos conocimientos desde las primeras etapas del diseño y simulación, lo que reduciría contratiempos y permitiría un progreso más fluido.
+
+- Joyner Caballero: Sugiero que se implementen entregas intermedias a lo largo del semestre, para que el proyecto pueda desarrollarse de manera gradual y no se acumule todo el trabajo hacia el final. Este enfoque permitiría tener un seguimiento más preciso de lo que hemos realizado y recibir retroalimentación oportuna para hacer correcciones a tiempo. Además, creo que sería muy beneficioso contar con recomendaciones sobre marcas de componentes, especialmente cuando compramos en línea o en el extranjero, ya que hay muchas opciones de baja calidad. Evitaríamos caer en estafas, como suele ocurrir con algunos productos de origen chino, lo que podría retrasar el proyecto o afectar el rendimiento del prototipo.
+
+- Camilo Apraez: Aunque me gusta la idea del proyecto, creo que se debería proporcionar más información a los estudiantes sobre los parámetros que deben tenerse en cuenta al implementar el hardware. Actualmente, la búsqueda de estos parámetros por cuenta propia puede hacer que el trabajo sea mucho más tedioso y complicado de lo necesario. Sería ideal que se explicaran estos aspectos con mayor profundidad desde el principio, para evitar retrasos o errores innecesarios. Además, creo que sería útil recibir más orientación en la parte del control del mecanismo, ya que es una sección crítica del proyecto. Tener más claridad sobre esta área mejoraría la calidad de nuestras soluciones y optimizaría el tiempo dedicado al desarrollo técnico.
