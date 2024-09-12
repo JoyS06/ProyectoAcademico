@@ -207,8 +207,12 @@ Este proceso de lectura es fundamental para obtener la retroalimentación necesa
 
 ![image](https://github.com/user-attachments/assets/eb54e316-98ce-472a-b001-3a7512982681)
 
+## Funcionamiento: 
+
+Se llevaron a cabo diversas pruebas para analizar el comportamiento de la planta bajo un esquema de control de posición. Estas pruebas permitieron evaluar el rendimiento del sistema en diferentes condiciones operativas y ajustar los parámetros de control para optimizar su respuesta. A través de estas pruebas, se obtuvieron los siguientes resultados, los cuales proporcionaron una visión detallada de la precisión y estabilidad del sistema, así como su capacidad para seguir trayectorias definidas de manera efectiva.
+
 # PROCESO
-Reflexiones del trabajo colaborativo, gestión de proyrecto y aprendizaje, máximo 6 páginas.
+
 ## - Gestión de Proyecto
 
 Dinamica de las reuniones: Durante las primeras semanas de clase, se realizaron reuniones virtuales al menos una vez por semana, en las cuales cada miembro del equipo recibía una tarea específica de diseño para desarrollar. Posteriormente, en las reuniones, se compartía el progreso individual con el grupo, lo que permitía que todos comprendieran el trabajo realizado por los demás y se resolvieran las dudas que surgían. A medida que se acercaba la fecha límite del proyecto, las reuniones presenciales se intensificaron, llegando a realizarse hasta cinco veces por semana, con una duración promedio de 10 horas por sesión, extendiéndose en ocasiones hasta la madrugada, con el objetivo de finalizar el prototipo físico y realizar los ajustes necesarios.
