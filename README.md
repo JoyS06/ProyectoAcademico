@@ -203,6 +203,16 @@ Finalmente, el encoder ensamblado presentó problemas funcionales, lo que requir
 
 Al gestionar ambos motores con un puente H, se descubrió que la unión de las tierras entre el circuito de potencia y el de control interfería con la correcta lectura del encoder de pulsos, lo cual ocasionaba errores en el monitoreo de la posición y el control del sistema.
 
+## Implementación de Software del Montaje
+
+Para la implementación del proyecto, además de la selección de componentes y el análisis realizado mediante simulaciones, se optó por controlar el sistema utilizando una placa Arduino Uno. Esta elección se debió a la facilidad de uso de la placa y su amplia compatibilidad con diversas bibliotecas, lo que agilizó el desarrollo y permitió acceder a recursos ya disponibles para proyectos similares.
+
+El primer paso en la implementación fue configurar la lectura de los encoders. Para esta tarea, era crucial comprender el funcionamiento de estos sensores. Los encoders utilizados en este proyecto son de efecto Hall, los cuales operan detectando un campo magnético generado por un imán fijado al eje del motor. A medida que el motor gira, el campo magnético varía, lo que provoca que las salidas del encoder se activen de manera periódica, enviando señales que corresponden a la posición angular del motor.
+
+Este proceso de lectura es fundamental para obtener la retroalimentación necesaria para el control del sistema, ya que permite medir con precisión la posición y la velocidad del motor, aspectos esenciales para asegurar que el sistema funcione de acuerdo con las especificaciones establecidas en las simulaciones previas.
+
+![image](https://github.com/user-attachments/assets/eb54e316-98ce-472a-b001-3a7512982681)
+
 # PROCESO
 Reflexiones del trabajo colaborativo, gestión de proyrecto y aprendizaje, máximo 6 páginas.
 ## - Gestión de Proyecto
