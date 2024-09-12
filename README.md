@@ -186,7 +186,7 @@ INSERTAR DIAGRAMA DE CONEXIONES
 - Funcionamiento del brazo, identificar fortalezas y debilidades en el diseño, evaluación del desempeño
 
 ## - Resultados: 
-
+Se obtuvo
 ### -Modelo físico
 Debido a las variaciones de las tolerancias de impresión, fue necesario ampliar algunos agujeros para asegurar el correcto encaje de las piezas. Para mejorar la fricción y optimizar la transmisión de movimiento, se decidió recubrir ciertos agujeros con cinta, lo cual también ayudó a reducir el juego en el brazo principal. Este ajuste resultó fundamental para minimizar el movimiento relativo entre los ejes y los acoples a los eslabones, mejorando la estabilidad general del mecanismo.
 
@@ -232,9 +232,9 @@ Como se mencionó anteriormente, para el desarrollo de este proyecto se delegaro
 
 A continuación, se presentan los principales aportes de cada miembro, reflejando cómo la colaboración permitió aprovechar al máximo las habilidades y conocimientos individuales, logrando un resultado final cohesivo y bien integrado.
 
-Marcos Fierro: Diseño del mecanismo en Autodesk Inventor, simulación del sistema en Simulink, selección del motorreductor y apoyo en la construcción del prototipo.
+Marcos Fierro: Diseño del mecanismo en Autodesk Inventor, simulación de algunos modelos y sistemas en Matlab y Simulink, selección del motorreductor, ajuste de control en la implementación de la plataforma Arduino, calculista tras la cinemática inversa, apoyo en la construcción del prototipo.
 
-El diseño del mecanismo se realizó utilizando Autodesk Inventor, una herramienta que permitió crear modelos tridimensionales precisos y visualizar el funcionamiento del sistema antes de su construcción. La simulación del sistema en Simulink fue clave para validar el comportamiento dinámico del mecanismo, lo que permitió ajustar parámetros y predecir el rendimiento bajo diferentes condiciones de operación.
+El diseño del mecanismo se realizó utilizando Autodesk Inventor, una herramienta que permitió crear modelos tridimensionales precisos y visualizar el funcionamiento del sistema antes de su construcción. La simulación del sistema en Simulink con ayuda de Simscape fue clave para validar el comportamiento dinámico del mecanismo, lo que permitió ajustar parámetros y predecir el rendimiento bajo diferentes condiciones de operación.
 
 Joyner Caballero: Diseño de los perfiles de movimiento: posición, velocidad y aceleración en función del tiempo. Análisis Lagrangiano para la determinación de los torques dinámicos en cada articulación, selección de motorreductores y construcción física del prototipo.
 
@@ -246,19 +246,20 @@ Se realizó la obtención y caracterización de los parámetros clave de la plan
 
 ## - Proceso de aprendizaje:
 
-- Marcos Fierro: El proyecto fue una excelente oportunidad para enfrentar las diversas dificultades y retos asociados con el control de diferentes tipos de motores. Me permitió entender la incidencia de las propiedades de cada motor en su funcionamiento y cómo estas características afectan el comportamiento del sistema en general. Además, pude observar cómo el grupo reaccionaba ante las adversidades y cómo, con un enfoque colectivo y organizado, logramos superar los obstáculos. Esta experiencia no solo reforzó mis habilidades técnicas, sino también mis capacidades de trabajo en equipo y resolución de problemas en situaciones de alta presión.
-
+- Marcos Fierro: En el presente proyecto atravesamos por innumerables inconvenientes, por lo que pude crecer tanto profesionalmente como personalmente para afrontar esas dificultades. Pude crear un criterio entre relaciones de aspectos relacionados al control y su incidencia en el comportamiento de los motores, y como estos a su vez, influyen en el comportamiento global del sistema. Mejoré mis capacidades técnicas en Simulink, Matlab, Arduino, Inventor y Excel, así como reforzar mis capacidades de diseño de control. También descubrí mis habilidades como mi resilencia ante situaciones de alto estrés y presión, así como mi rol de mediador de conflictos internos en grupo, lo que mantuvo la armonía en el equipo.
 - Joyner Caballero: El proyecto me permitió desarrollar inquietudes importantes en varios de los temas tratados durante la asignatura. A medida que surgían preguntas o dificultades, pude apoyarme tanto en mis compañeros como en el profesor para resolverlas de manera colaborativa. Este enfoque de trabajo en equipo y consulta constante no solo facilitó el aprendizaje, sino que también permitió fortalecer el entendimiento de los conceptos aplicados. Enfrentar estos retos junto a un grupo comprometido y con el apoyo constante del docente fue clave para el éxito del proyecto.
 
 - Camilo Apraez: Este proyecto fue un desafío que exigió poner en práctica múltiples conocimientos de manera simultánea. A través de él, adquirí una visión integral de lo que implica el diseño y funcionamiento de un servomecanismo, desde su concepción mecánica, regida por leyes físicas, hasta su implementación de control. Una lección clave fue la importancia de seleccionar los actuadores correctamente, considerando tanto el torque como el momento de inercia. Además, se refinan las técnicas de control y se profundiza en los parámetros que deben considerarse en el diseño. No es suficiente basarse en la intuición inicial; es fundamental un análisis más detallado para llevar el control a otro nivel. Finalmente, la implementación técnica debe tener en cuenta muchas variables, siendo una de las más críticas la frecuencia del puerto PWM, que influye significativamente en el comportamiento del sistema.
 
 ## - Recomendaciones para Futuros trabajos de Aprendizaje Basado en Problemas orientado a Proyecto:
 
-- Marcos Fierro: Considero que sería extremadamente útil que las clases directamente relacionadas con el proyecto se impartieran al inicio del semestre. Esto nos permitiría avanzar en el desarrollo del proyecto de manera más continua y organizada, sin tener que detenernos para aprender conceptos clave a mitad del proceso. Un ejemplo concreto sería la clase sobre la caracterización de la planta, que es fundamental para entender cómo modelar el sistema. Si se impartiera esta clase al inicio, podríamos aplicar estos conocimientos desde las primeras etapas del diseño y simulación, lo que reduciría contratiempos y permitiría un progreso más fluido.
-
+- Marcos Fierro: Considero que sería extremadamente útil que las clases directamente relacionadas con el proyecto se impartieran al inicio del semestre. Esto nos permitiría avanzar en el desarrollo del proyecto de manera más continua y organizada, sin tener que detenernos para aprender conceptos clave a mitad del proceso. Un ejemplo concreto sería la clase sobre la caracterización de la planta, que es fundamental para entender cómo modelar el sistema. Si se impartiera esta clase al inicio, podríamos aplicar estos conocimientos desde las primeras etapas del diseño y simulación, lo que reduciría contratiempos y permitiría un progreso más fluido, además considero que se deberían hacer mención de la aplicación de técnicas de control, y modelados en plataformas como Simulink.
 - Joyner Caballero: Sugiero que se implementen entregas intermedias a lo largo del semestre, para que el proyecto pueda desarrollarse de manera gradual y no se acumule todo el trabajo hacia el final. Este enfoque permitiría tener un seguimiento más preciso de lo que hemos realizado y recibir retroalimentación oportuna para hacer correcciones a tiempo. Además, creo que sería muy beneficioso contar con recomendaciones sobre marcas de componentes, especialmente cuando compramos en línea o en el extranjero, ya que hay muchas opciones de baja calidad. Evitaríamos caer en estafas, como suele ocurrir con algunos productos de origen chino, lo que podría retrasar el proyecto o afectar el rendimiento del prototipo.
 
 - Camilo Apraez: Aunque me gusta la idea del proyecto, creo que se debería proporcionar más información a los estudiantes sobre los parámetros que deben tenerse en cuenta al implementar el hardware. Actualmente, la búsqueda de estos parámetros por cuenta propia puede hacer que el trabajo sea mucho más tedioso y complicado de lo necesario. Sería ideal que se explicaran estos aspectos con mayor profundidad desde el principio, para evitar retrasos o errores innecesarios. Además, creo que sería útil recibir más orientación en la parte del control del mecanismo, ya que es una sección crítica del proyecto. Tener más claridad sobre esta área mejoraría la calidad de nuestras soluciones y optimizaría el tiempo dedicado al desarrollo técnico.
+
+## Conclusiones: 
+El proceso de ingeniería no es lineal, es en cambio como un río, se retuerce entre rocas y se estanca entre lagunas, pero siempre encuentra su camino al mar.
 
 ## Referencias: 
 
