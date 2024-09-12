@@ -42,10 +42,12 @@ Trayectoria del Trébol:
 El dispositivo está diseñado para seguir una trayectoria específica que se mide desde el extremo distal del segundo eslabón. Esta trayectoria tiene la forma de un trébol de cinco hojas con un contorno estilizado, adaptado al diseño y simulación. Además, la trayectoria debe estar completamente inscrita dentro de un cuadrado de 150 mm de lado, garantizando la precisión y el ajuste adecuado del mecanismo en el espacio de trabajo.
 
 Control de Escala y Rotación:
-El sistema debe permitir que la escala de la trayectoria se ajuste en tiempo real, ofreciendo flexibilidad en la operación. Además, el dispositivo tiene la capacidad de rotar la trayectoria en tiempo real, con un rango de ±45 grados, lo que permite una mayor versatilidad en las configuraciones y adaptaciones del mecanismo a diferentes requerimientos.
+El sistema debe permitir que la escala de la trayectoria se ajuste en tiempo real hasta en un factor de 1.33, ofreciendo flexibilidad en la operación. Además, el dispositivo tiene la capacidad de rotar la trayectoria en tiempo real, con un rango de ±45 grados, lo que permite una mayor versatilidad en las configuraciones y adaptaciones del mecanismo a diferentes requerimientos.
 
 Posición de Inicio (Home):
 Al comenzar el movimiento, el sistema debe estar posicionado en el punto inicial o "home", y su ubicación debe estar como máximo a la mitad de la altura del trébol estilizado, hacia la izquierda del cuadrado en el cual la figura está inscrita. Esto garantiza que el sistema esté correctamente preparado para iniciar su ciclo de movimiento de forma eficiente.
+
+INSERTAR FOTO DEL HOME
 
 Velocidad del Movimiento:
 El servomecanismo debe operar a una velocidad constante dentro de un rango ajustable de 1 a 10 cm/s. Este rango de velocidades permite una adaptación flexible, dependiendo de las necesidades del proyecto, asegurando al mismo tiempo un movimiento fluido y controlado a lo largo de la trayectoria definida.
@@ -94,7 +96,7 @@ Este factor se utiliza para sincronizar la posición de los motores con la de lo
 
 ![image](https://github.com/user-attachments/assets/129ba500-f222-4231-8834-79426f02ad67)
 
-Es fundamental señalar que el brazo comienza su trayectoria desde una posición completamente plegada, en la cual los ángulos de las articulaciones se encuentran en 𝜋 radianes. A partir de esta posición inicial, se ha establecido un perfil de posición a lo largo del tiempo. Para modelar con precisión el comportamiento de los motores, hemos realizado una aproximación mediante una ecuación polinómica de orden 17, la cual describe la evolución de las posiciones de los motores a lo largo del tiempo. Esta ecuación nos permite derivar las posiciones para obtener aproximaciones de la velocidad y aceleración en función del tiempo.
+Es fundamental señalar que el brazo comienza su trayectoria desde una posición "acostada", como se ha mostrado en figuras anteriores, en la cual los ángulos de las articulaciones se encuentran en ángulos. A partir de esta posición inicial, se ha establecido un perfil de posición a lo largo del tiempo. Para modelar con precisión el comportamiento de los motores, hemos realizado una aproximación mediante una ecuación polinómica de orden 17, la cual describe la evolución de las posiciones de los motores a lo largo del tiempo. Esta ecuación nos permite derivar las posiciones para obtener aproximaciones de la velocidad y aceleración en función del tiempo.
 
 Las gráficas resultantes de velocidad y aceleración, generadas a partir de las aproximaciones mencionadas, se presentan en las siguientes imágenes, ofreciendo una visión clara del rendimiento dinámico del sistema. 
 
@@ -104,7 +106,7 @@ Velocidad de cada uno de los motores con respecto al tiempo
 
 ![image](https://github.com/user-attachments/assets/ae6c97c8-fddc-4e37-9df1-3ffe9367e9c7)
 
-Aceleracion de cada uno de los motores con respecto al tiempo
+Aceleración de cada uno de los motores con respecto al tiempo
 
 Determinación de los torques 𝑇1 y 𝑇2 requeridos por el mecanismo:
 
@@ -159,7 +161,7 @@ Estas expresiones permiten encontrar los torques necesarios para controlar el mo
 
 ![image](https://github.com/user-attachments/assets/5158e597-2b31-4434-985b-221af15c2cee)
 
-## Determinacion de los motorreductores:
+## Determinación de los motorreductores:
 
 Para seleccionar los motorreductores adecuados, se comenzó asegurando que cumplieran con el torque RMS y el torque pico que requería el sistema. Específicamente, se buscó que los motorreductores tuvieran un torque pico (o torque de stall) superior al calculado en las ecuaciones, y un torque nominal que superara lo mostrado en las ecuaciones anteriores.
 
@@ -186,8 +188,9 @@ INSERTAR DIAGRAMA DE CONEXIONES
 - Funcionamiento del brazo, identificar fortalezas y debilidades en el diseño, evaluación del desempeño
 
 ## - Resultados: 
-Se obtuvo
 ### -Modelo físico
+Para el modelo de la planta se usaron los siguientes componentes:
+
 Debido a las variaciones de las tolerancias de impresión, fue necesario ampliar algunos agujeros para asegurar el correcto encaje de las piezas. Para mejorar la fricción y optimizar la transmisión de movimiento, se decidió recubrir ciertos agujeros con cinta, lo cual también ayudó a reducir el juego en el brazo principal. Este ajuste resultó fundamental para minimizar el movimiento relativo entre los ejes y los acoples a los eslabones, mejorando la estabilidad general del mecanismo.
 
 La fijación del primer motor a una tabla facilitó la implementación de un contrapeso improvisado; sin embargo, no fue suficiente para reducir las vibraciones. En respuesta, se incorporó una goma como base para distribuir y amortiguar mejor las vibraciones generadas durante el funcionamiento. Esta modificación ayudó a mejorar el rendimiento, pero las vibraciones aún representaron un desafío.
